@@ -7,6 +7,6 @@ public class HelloWorldController
 @RequestMapping("/")
 public String hello() 
 {
-return "<h1> Congratulations. <br>You have successfully deployed the sample Spring Boot Application. <br>Update 1 on May 7, 2023</h1>";
+return "<span style="text-align:center;"><h1> Congratulations. <br>You have successfully deployed the sample Spring Boot Application. <br>Update 1 on May 7, 2023</h1></span>";
 }
 }
